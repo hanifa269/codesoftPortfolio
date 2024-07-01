@@ -1,0 +1,216 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #333;
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-right: 1rem;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffc107;
+}
+
+/* Hero Header */
+#home {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+/* About Section */
+#about {
+    padding: 4rem 0;
+
+}
+
+#about img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Services Section */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust as needed */
+}
+
+.col-lg-4 {
+    flex: 1 1 calc(33.33% - 20px); /* Adjust width as needed */
+    margin-bottom: 20px; /* Margin between columns */
+}
+
+@media (max-width: 992px) {
+    .col-lg-4 {
+        flex: 1 1 calc(50% - 20px); /* 2 columns on medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .col-lg-4 {
+        flex: 1 1 100%; /* Full width on small screens */
+    }
+}
+
+
+
+#services {
+    padding: 4rem 0;
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+/* Portfolio Section */
+#portfolio {
+    padding: 4rem 0;
+}
+
+.card-img-top {
+    max-width: 100%;
+    height: auto;
+}
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Contact section */
+#contact {
+    padding: 80px 0;
+}
+
+#contact h2 {
+    margin-bottom: 40px;
+}
+
+#contactForm {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(19, 16, 16, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+#contactForm .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+#contactForm textarea {
+    resize: vertical;
+}
+
+#contactForm button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #85b069;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#contactForm button:hover {
+    background-color: #85b069;
+}
+
+/* Map section */
+#map {
+    height: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-item {
+        margin: 0.5rem 0;
+    }
+
+    .card {
+        margin-bottom: 1.5rem;
+    }
+}
